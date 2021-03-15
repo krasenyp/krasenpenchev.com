@@ -1,0 +1,7 @@
+#+TITLE: Блогът на Красен Пенчев
+#+OPTIONS: title:nil
+
+Това е домът [[file:index.org][ми]] интернет пространството и тук ще публикувам мислите
+си.
+
+#+INCLUDE: posts/index.org :lines "3-"

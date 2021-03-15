@@ -1,0 +1,30 @@
+html {
+  font-size: 1.3rem; }
+
+#content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center; }
+
+h1 {
+  font-size: 1.4em;
+  line-height: calc(1ex / 0.42);
+  margin: calc(1ex / 0.42) 0; }
+
+h2 {
+  font-size: 1.2em;
+  line-height: calc(1ex / 0.42);
+  margin: calc(1ex / 0.42) 0; }
+
+p {
+  font-size: 1em;
+  line-height: calc(1ex / 0.32);
+  margin: calc(1ex / 0.32) 0;
+  width: 60ch;
+  max-width: 100%;
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word;
+  word-wrap: break-word;
+  letter-spacing: 0.02em; }
