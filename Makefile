@@ -3,6 +3,8 @@
 all: publish
 
 publish: publish.el
+	@echo "Compiling SCSS"
+	sassc ./static/styles/base.scss ./static/styles/base.css
 	@echo "Publishing with current Emacs configurations."
 	emacs --batch --load publish.el --funcall org-publish-all
 
