@@ -1,0 +1,49 @@
+html {
+  font-size: 1.2rem;
+  font-family: 'Georgia', serif;
+  color: #414141; }
+
+body {
+  width: 100%;
+  max-width: 700px;
+  margin: auto; }
+
+p {
+  text-align: justify;
+  font-kerning: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  margin-bottom: 26px; }
+
+a {
+  text-decoration: none;
+  color: #aa3030;
+  transition: color 0.2s ease-in-out; }
+  a:hover {
+    color: #6f0000; }
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex; }
+
+.nav-list-item:not(:last-child) {
+  margin-right: 15px; }
+
+.posts-list {
+  list-style: none;
+  padding: 0; }
+
+.posts-list-item:not(:last-child) {
+  margin-bottom: 10px; }
+
+.post {
+  display: flex; }
+  .post h2 {
+    font-size: 1em;
+    margin: 0; }
+  .post time {
+    margin-right: 10px; }
