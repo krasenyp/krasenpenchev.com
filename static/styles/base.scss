@@ -1,83 +1,64 @@
-// body {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     margin: auto;
-// }
-
-// #content {
-//     font-size: 1em;
-//     max-width: 60ch;
-//     align-self: center;
-//     margin: auto 10px;
-
-//     @media screen and (min-width: 600px){
-//         font-size: 1.3em;
-//         padding: 0 30px;
-//     }
-
-//     & > * {
-//         margin-bottom: 2em;
-//     }
-// }
-
-//     header {
-//         text-align: center;
-
-//         h1 {
-//             font-size: 1.4em;
-//         }
-//     }
-
-//     h2 {
-//         font-size: 1.1em;
-//     }
-
-//     p {
-//         text-align: justify;
-//         line-height: 1.2;
-//         hyphens: auto;
-//         word-break: break-word;
-//         word-wrap: break-word;
-//         letter-spacing: 0.02em;
-
-//         @media screen and (min-width: 600px){
-//             line-height: 1.4;
-//         }
-//     }
-
 html {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-family: 'Georgia', serif;
+    color: #414141;
 }
 
-#content {
+body {
+    width: 100%;
+    max-width: 700px;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-}
-
-h1 {
-    font-size: 1.4em;
-    line-height: calc(1ex / 0.42);
-    margin: calc(1ex / 0.42) 0;
-}
-
-h2 {
-    font-size: 1.2em;
-    line-height: calc(1ex / 0.42);
-    margin: calc(1ex / 0.42) 0;
 }
 
 p {
-    font-size: 1em;
-    line-height: calc(1ex / 0.32);
-    margin: calc(1ex / 0.32) 0;
-    width: 60ch;
-    max-width: 100%;
     text-align: justify;
+    font-kerning: auto;
     hyphens: auto;
-    word-break: break-word;
     word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.4;
     letter-spacing: 0.02em;
+    margin-bottom: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: #aa3030;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        color: #6f0000;
+    }
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list-item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.posts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.posts-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.post {
+    display: flex;
+
+    h2 {
+        font-size: 1em;
+        margin: 0;
+    }
+
+    time {
+        margin-right: 10px;
+    }
 }

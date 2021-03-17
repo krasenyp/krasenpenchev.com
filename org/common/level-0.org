@@ -1,0 +1,4 @@
+#+AUTHOR: Красен Пенчев
+#+EMAIL: hello@krasenpenchev.com
+#+LANGUAGE: bg
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="static/styles/base.css" />

@@ -1,0 +1,4 @@
+#+OPTIONS: title:nil
+#+BEGIN_EXPORT html
+    <ul class="posts-list"><li class="posts-list-item"><article class="post"><time datetime="2021-03-17">17/03/2021</time> <h2><a href="posts/first-post.html">Първа публикация</a></h2></article></li></ul>
+#+END_EXPORT

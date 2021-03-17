@@ -11,3 +11,4 @@ clean:
 	@rm -rvf *.elc
 	@rm -rvf public
 	@rm -rvf ~/.org-timestamps/*
+	@rm -rvf org/posts/sitemap.org
